@@ -1,12 +1,12 @@
 <template>
 	<v-row no-gutters>
 		<v-col class="hidden-sm-and-down" md="5">
-			<v-img
-				:src="selectedImage"
+			<img
+				src="../assets/home.jpeg"
                 alt="home-decorative-image-Groupomania"
                 gradient="340deg, rgba(9,31,67,0.8) 0%, rgba(9,31,67,0.7) 57%, rgba(209,81,90,0.3) 100%"
-				height="100vh"
-                width="100%"
+				height="300vh"
+                width="100%" style="margin-left:8%;margin-top:40%"
 				cover
 			/>
 		</v-col>
@@ -17,7 +17,7 @@
 			max-height="100vh"
 			class="d-flex align-md-center justify-center"
 		>
-			<v-card elevation="3" max-width="450">
+			<v-card elevation="3" max-width="500">
 				<v-app-bar dense flat dark color="primary">
 					<v-tabs grow>
 						<v-tabs-slider color="secondary"></v-tabs-slider>
@@ -29,12 +29,12 @@
 				<v-main class="pa-5">
 					<v-container class="text-center">
 						<img
-							class="py-3"
+							
 							alt="Groupomania_logo"
-							src="../assets/groupomania-logo_black.svg"
-							width="70%"
+							src="../assets/icon-left-font.svg"
+							width="100%" 
 						/>
-						<h1 class="text-h4">
+						<h1 class="text-h4" style ="margin-top:-30%">
 							Bienvenue sur votre réseau social
 						</h1>
 						<h2 class="text-h6 py-1" v-if="mode.login">
