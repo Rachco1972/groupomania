@@ -1,7 +1,7 @@
 // User Controls
 // ------------------------- IMPORTS -------------------------
-/* const dotEnv = require('dotenv'); 
-dotEnv.config();  */
+ const dotEnv = require('dotenv'); 
+dotEnv.config();  
 
 const bcrypt = require('bcrypt'); // package password cryptage
 const jwToken = require('jsonwebtoken'); // package token
