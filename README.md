@@ -67,7 +67,7 @@ Dans le dossier <kbd> :file_folder: backend </kbd>
 
 ### 4. Accès Admin
 
-la base de donnée **avec exemple** créée contient deux users avec le rôle Admin.
+
 
 Pour accéder à l'api en tant qu'admin  :
 
@@ -88,7 +88,7 @@ Password : Ev5QZ@Wg5_RUBdtK
 
 * Node Js 
     * Express
-* Database : mySql || postgresql
+* Database : mySql 
 * Vue 2
 * Vutify
 
