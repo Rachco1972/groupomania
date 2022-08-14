@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/Sunpadow54/Groupomania-social-network.git"
   },
-  "author": "Sunpadown54",
+  "author": "rk4",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
